@@ -10,6 +10,25 @@ atom-workspace {
 	background-color: @app-background-color;
 }
 
+atom-text-editor {
+	background-color: #1D1E19;
+	.gutter {
+		background-color: #282828;
+	}
+}
+
+.gutter-container {
+	margin-right: .5em;
+}
+
+.indent-guide-improved {
+  &, &.indent-guide-stack {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  &.indent-guide-stack.indent-guide-active {
+    background-color: rgb(40, 85, 94);
+  }
+}
 
 // Scrollbars ------------------------------------
 
